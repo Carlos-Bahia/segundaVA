@@ -82,4 +82,4 @@ else:
     print("Ambos os livros possuem a mesma média.")
 
 print("O livro {} registrado no ISBN {} tem média {}.".format(livro1[1], livro1[0], livro1[5]))
-print("O livro {} registrado no ISBN {} tem média {}.".format(livro2[1], livro2[0], livro2[5]))
+print("Enquanto o livro {} registrado no ISBN {} tem média {}.".format(livro2[1], livro2[0], livro2[5]))
