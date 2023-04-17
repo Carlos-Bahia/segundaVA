@@ -1,6 +1,3 @@
-def retiraespaco(entrada):
-    return entrada[1:]
-
 def formatador(entrada):
     try:
         if entrada[-1] == '"' or entrada[-1] == '.':
