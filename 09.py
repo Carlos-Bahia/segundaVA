@@ -8,15 +8,12 @@ def formatarISBN(entrada):
     return entrada
 
 print("Digite 2 livros e veja qual teve a pior avaliação média.")
-tipo_pesquisa = -1
 
 livro1 = ['','','',0,0,0] #isbn, titulo, ano, nota, quantidade, media
 livro2 = ['','','',0,0,0]
 
-notas = [0,0]
-quantidade = [0,0]
-
-while tipo_pesquisa > 2 or tipo_pesquisa < 1: #menu
+tipo_pesquisa = -1
+while tipo_pesquisa != 2 or tipo_pesquisa != 1: #menu
         
     print("Como deseja pesquisar?")
     print("1 - Pesquisar por Título e Ano")
