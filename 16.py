@@ -14,7 +14,7 @@ for x in range((int(ano_final) - int(ano_inicial))+1):
     quant_dict[int(ano_inicial) + x] = 0
 
 arqLivros = open('BX_Books.csv', 'r', encoding='iso-8859-1')
-contador = 0
+
 for linha in arqLivros:
 
     entrada = [retiraspas(x) for x in linha.split(";")]
