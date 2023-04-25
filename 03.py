@@ -1,3 +1,5 @@
+#Mostre a quantidade de usuários de um país X.
+
 def formatador(entrada):
     #Definição de Função para formatar o país, recebendo da tabela
     #Como existem países que tem um caracter extra fora do alfabeto, como "" ou .

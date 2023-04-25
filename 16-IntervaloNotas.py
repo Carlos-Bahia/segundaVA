@@ -1,4 +1,6 @@
 #Mostre o X ano que teve mais avaliações com um intervalo entre X e Y.
+#Recebe o intervalo de notas e imprime o nota com maior núemro de avaliações dentro desse intervalo.
+#Ex: Notas entre 0 e 5, imprime ano X, que teve o maior número avaliações entre 0 e 5.
 
 def retiraspas(entrada):
     return entrada[1:-1]
@@ -30,7 +32,7 @@ arqLivros.readline()
 
 for linha in arqLivros:
     entrada = [retiraspas(x) for x in linha.split(";")]
-    #Cria uma lista com os anos los livros da lista.
+    #Cria uma lista com os anos dos livros da lista.
     #Alguns casos, está contido no indice 3, em outros no indice 4.
     #Identifica, qual desses é o ano e adiciona a lista.
     if len(entrada[3]) > 4:
@@ -94,4 +96,4 @@ for x in quantAnos.keys():
         print("Livros do ano {} tiveram mais avaliações entre {} e {}.".format(x, intervaloA, intervaloB))
         print("Com um total de {} avaliações.".format(maisAvalicoes))
 
-#print(quantAnos)
+print(quantAnos)

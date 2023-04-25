@@ -1,3 +1,5 @@
+#Dado dois livros X e Y, mostre qual deles tem a pior avaliação média.
+
 def retiraspas(entrada):
     return entrada[1:-1]
 
